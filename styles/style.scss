@@ -21,3 +21,8 @@ body {
     }
 
 }
+
+header {
+    @extend .extend-exapmle;
+    border: 1px solid black;
+}

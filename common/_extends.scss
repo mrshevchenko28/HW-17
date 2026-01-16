@@ -1,6 +1,7 @@
-%extend-example {
+.extend-example {
     display: inline-block;
     color: aqua;
+    background-color: green;
     border: 1px solid black;
     width: $content-width;
 }
