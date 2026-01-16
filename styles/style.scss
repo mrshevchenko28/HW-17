@@ -1,0 +1,22 @@
+@import "../common/variables";
+@import "../common/mixins";
+@import "../common/reset";
+@import "../common/extends";
+@import "../common/common";
+
+
+body {
+    margin: 0;
+    font-family: $default-font;
+    div {
+        width: $content-width;
+        background-color: red;
+        h1 {
+            color: white;
+        }
+    }
+    p {
+        font-size: large;
+    }
+
+}

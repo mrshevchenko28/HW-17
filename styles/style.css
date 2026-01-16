@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+body div {
+  background-color: red;
+}
+body div h1 {
+  color: white;
+}
+body p {
+  font-size: large;
+}/*# sourceMappingURL=style.css.map */
