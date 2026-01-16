@@ -11,6 +11,7 @@ body {
     div {
         width: $content-width;
         background-color: red;
+        border: 5px solid $global-color;
         h1 {
             color: white;
         }
