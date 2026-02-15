@@ -1,7 +1,14 @@
-.extend-example {
-    display: inline-block;
-    color: aqua;
-    background-color: green;
-    border: 1px solid black;
-    width: $content-width;
+.paragragh {
+    font-family: $default-font;
+    font-weight: 400;
+    font-style: medium;
+    font-size: .9375rem;
+    color: #FFFFFF;
+    line-height: 1;
+    letter-spacing: 0;
+    opacity: 75%;
+}
+
+ .header-text {
+    
 }

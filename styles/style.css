@@ -17,18 +17,447 @@ ul, ol {
   list-style: none;
 }
 
-body {
-  margin: 0;
-  font-family: "Open-Sans", sans-serif;
+.paragragh {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: medium;
+  font-size: 0.9375rem;
+  color: #FFFFFF;
+  line-height: 1;
+  letter-spacing: 0;
+  opacity: 75%;
 }
-body div {
+
+header {
+  overflow: hidden;
+  background-color: #74C69D;
   width: 1440px;
-  background-color: red;
-  border: 5px solid yellow;
+  height: 568px;
+  padding: 35px 130px 0 135px;
 }
-body div h1 {
-  color: white;
+
+.header-frame-9 {
+  width: 1175px;
+  height: auto;
+  display: flow-root;
+  margin-bottom: 40px;
 }
-body p {
-  font-size: large;
+
+.frame_1 {
+  width: 11.6875rem;
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 0;
+  float: left;
+}
+
+.frame_4start {
+  width: 6.1875rem;
+  height: 3.125rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  line-height: 1;
+  letter-spacing: 0;
+  margin-left: 1.125rem;
+}
+
+.navbar-burger-menu {
+  width: 391px;
+  height: auto;
+  float: right;
+}
+
+.header-contact {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 1.875rem;
+}
+
+.contact-text {
+  width: auto;
+  height: auto;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: #FFFFFF;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.frame_2 {
+  width: 416px;
+  height: 299px;
+  float: left;
+  margin: 2.4731rem 7.5rem 2.4731rem 0;
+}
+
+.header-frame-7 {
+  width: 1180.28px;
+  height: 378.1296px;
+}
+
+.header-text {
+  width: 416px;
+}
+
+.header-text-welcome {
+  width: 7.0625rem;
+  height: 1.25rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1rem;
+  color: #FFFFFF;
+  line-height: 1.25;
+  letter-spacing: 0.3125rem;
+  margin-bottom: 0.9375rem;
+}
+
+.paragraph {
+  width: 26rem;
+  height: 4.75rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9375rem;
+  color: #FFFFFF;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin-bottom: 1.5625rem;
+  opacity: 0.75;
+}
+
+.big_font {
+  width: 26rem;
+  height: 6.25rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 2.5rem;
+  color: #FFFFFF;
+  line-height: 1.25;
+  letter-spacing: 0;
+  margin-bottom: 15px;
+}
+
+.explore {
+  width: 10.625rem;
+  height: 3rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: #000000;
+  line-height: 1;
+  letter-spacing: 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.second-svg-pic {
+  width: 644.28px;
+  height: 378.1296px;
+  margin-left: 120px;
+}
+
+main {
+  width: 1440px;
+  height: 145.5625rem;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.main-first-block {
+  width: 72.4363rem;
+  height: 22.1875rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  margin: 8.6875rem 8.7513rem 4.875rem 8.8125rem;
+  border: 0.0625rem solid black;
+}
+
+.main-text-first {
+  width: 25.6875rem;
+  height: 10.125rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 0 23.3744rem 3.4375rem 23.3744rem;
+  border: 1px solid black;
+}
+
+.main-title-text-first {
+  width: 7.5625rem;
+  height: 1.25rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1rem;
+  color: #74C69D;
+  line-height: 1;
+  letter-spacing: 0.3125rem;
+  -webkit-text-stroke: 0.0625rem #000;
+}
+
+.main-title-big-first {
+  width: 21.3125rem;
+  height: 3.125rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 40px;
+  color: #FFFFFF;
+  line-height: 1;
+  letter-spacing: 0;
+  -webkit-text-stroke: 0.0625rem #000;
+}
+
+.main-title-paragraph-first {
+  width: 25.6875rem;
+  height: 3.75rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.main-img-fisrt {
+  width: auto;
+  height: 3.125rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 4.25rem;
+  margin: 0 0 2.5rem 0;
+  border: 0.0625rem solid black;
+}
+
+.google {
+  width: 9.54rem;
+  height: 3.125rem;
+}
+
+.microsoft {
+  width: 13.1781rem;
+  height: 2.8125rem;
+}
+
+.airbnb {
+  width: 10.0181rem;
+  height: 3.125rem;
+}
+
+.facebook {
+  width: 12.2737rem;
+  height: 2.375rem;
+}
+
+.spotify {
+  width: 166.82px;
+  height: 3.125rem;
+}
+
+.learn-more {
+  width: 10.625rem;
+  height: 3rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  letter-spacing: 0;
+  background-color: rgb(33, 37, 41);
+  border: none;
+  border-radius: 5px;
+}
+
+.main-second-block {
+  width: 73.75rem;
+  height: 431.43px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6.875rem;
+  border: 0.0625rem solid black;
+  margin: 0 8.125rem 1.4106rem 8.125rem;
+}
+
+.fourth-svg-pic {
+  width: 37.5rem;
+  height: 26.9644rem;
+}
+
+.main-text {
+  width: 29.375rem;
+  height: 15.9375rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: none;
+  gap: 1rem;
+  border: 0.0625rem solid black;
+}
+
+.main-text-big-second {
+  width: 28.875rem;
+  height: 6.25rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 2.5rem;
+  color: rgb(33, 37, 41);
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.main-text-paragraph-second {
+  width: 29.375rem;
+  height: 4.6875rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9375rem;
+  color: rgba(33, 37, 41, 0.5);
+  line-height: 1.25;
+  letter-spacing: 0;
+  border: 0.0625rem solid black;
+}
+
+.main-third-block {
+  width: 73.75rem;
+  height: 35.3581rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  border: 0.0625rem solid black;
+  margin: 0 8.125rem 4.4544rem 8.125rem;
+}
+
+.fifth-svg-pic {
+  width: 37.5rem;
+  height: auto;
+}
+
+.main-fourth-block {
+  width: 73.5rem;
+  height: 37.4375rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: none;
+  align-items: center;
+  gap: 2.8125rem;
+  margin: 0 8.25rem 4.5rem 8.25rem;
+  border: 0.0625rem solid black;
+  text-align: center;
+}
+
+.main-text-fourth {
+  width: 25.25rem;
+  height: 10.125rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 0.0625rem solid black;
+}
+
+.main-title-text-fourth {
+  width: 3.8125rem;
+  height: 1.25rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 1rem;
+  color: #74C69D;
+  line-height: 1;
+  letter-spacing: 0.3125rem;
+}
+
+.main-text-big-fourth {
+  width: 12.875rem;
+  height: 3.125rem;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 2.5rem;
+  color: rgb(33, 37, 41);
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.main-text-paragraph-fourth {
+  width: 25.25rem;
+  height: 3.75rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  line-height: 1.25;
+  letter-spacing: 0;
+}
+
+.carousel, .carousel-inner {
+  width: 73.5rem;
+  height: 18.6875rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border: 0.0625rem solid black;
+}
+
+.carousel-first {
+  width: 17.4375rem;
+  height: 18.6875rem;
+  border: 0.0625rem solid black;
+}
+
+.carousel-profile-list {
+  width: 12.625rem;
+  height: 16.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  border: 0.0625rem solid black;
 }/*# sourceMappingURL=style.css.map */

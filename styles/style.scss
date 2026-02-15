@@ -5,24 +5,231 @@
 @import "../common/common";
 
 
-body {
-    margin: 0;
-    font-family: $default-font;
-    div {
-        width: $content-width;
-        background-color: red;
-        border: 5px solid $global-color;
-        h1 {
-            color: white;
-        }
-    }
-    p {
-        font-size: large;
-    }
+
+header {
+    overflow: hidden;
+    background-color: $global-color;
+    width: $content-width;
+    height: 568px;
+    padding: 35px 130px 0 135px;
+}
+
+.header-frame-9 {
+    width: 1175px;
+    height: auto;
+    display: flow-root;
+    margin-bottom: 40px ;
+}
+
+.frame_1 {
+    @include flexbox (11.6875rem, 3.125rem, flex, row, nowrap, none, none, 0);
+    float: left;
+}
+
+.frame_4start {
+    @include font-design (6.1875rem, 3.125rem, $default-font, 500, medium, 2.5rem, $global-white, 1, 0);
+    margin-left: 1.125rem;
+}
+
+
+.navbar-burger-menu {
+    width: 391px;
+    height: auto;
+    float: right;
+}
+
+.header-contact {
+    @include flexbox (auto, auto, flex, row, nowrap, none, none, 1.875rem);
+}
+
+.contact-text {
+    @include font-design (auto, auto, $default-font, 400, normal, 1.25rem, $global-white, 1, 0);
+}
+
+.frame_2 {
+    width: 416px;
+    height: 299px;
+    float: left;
+    margin: 2.4731rem 7.5rem 2.4731rem 0;
+}
+
+.header-frame-7 {
+    width: 1180.28px;
+    height: 378.1296px;
 
 }
 
-header {
-    @extend .extend-exapmle;
+.header-text {
+    width: 416px;
+}
+
+.header-text-welcome {
+    @include font-design (7.0625rem, 1.25rem, $default-font, 700, bold, 1rem, $global-white, 1.25, .3125rem);
+    margin-bottom: .9375rem;
+}
+
+.paragraph {
+    @include font-design (26rem, 4.75rem, $default-font, 400, normal, .9375rem, $global-white, 1.25, 0) ;
+    margin-bottom: 1.5625rem;
+    opacity: 0.75;
+}
+
+.big_font {
+    @include font-design (26rem, 6.25rem, $secondary-font, 700, bold, 2.5rem, $global-white, 1.25, 0);
+    margin-bottom: 15px
+}
+
+.explore {
+    @include font-design (10.625rem, 3rem, $default-font, 400, normal, 1.25rem, #000000, 1, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.second-svg-pic {
+    width: 644.28px;
+    height: 378.1296px;
+    margin-left: 120px;
+}
+
+main {
+    width: $content-width;
+    height: 145.5625rem;
+    overflow: hidden;
+    background-color: $global-white;
+}
+
+.main-first-block {
+    @include flexbox (72.4363rem, 22.1875rem, flex, column, nowrap, center, center, 0);
+    margin: 8.6875rem 8.7513rem 4.875rem 8.8125rem; 
+    border: .0625rem solid black;
+}
+
+.main-text-first {
+    @include flexbox (25.6875rem, 10.125rem, flex, column, nowrap, center, center, 1rem );
+    margin: 0 23.3744rem 3.4375rem 23.3744rem ; 
     border: 1px solid black;
+}
+
+.main-title-text-first {
+    @include font-design (7.5625rem, 1.25rem, $default-font, 700, bold, 1rem, #74C69D, 1, .3125rem);
+    -webkit-text-stroke: .0625rem #000;
+}
+
+.main-title-big-first {
+    @include font-design (21.3125rem, 3.125rem, $secondary-font, 700, bold, 40px, $global-white, 1, 0 );
+    -webkit-text-stroke: .0625rem #000;
+}
+
+.main-title-paragraph-first {
+    @include font-design (25.6875rem, 3.75rem, $default-font, 400, normal, 20px, rgba(0, 0, 0, 1),  1.25, 0 );
+}
+
+.main-img-fisrt {
+    @include flexbox (auto, 3.125rem, flex, row, nowrap, none, none, 4.25rem );
+    margin: 0 0 2.5rem 0;
+    border: .0625rem solid black;
+}
+
+.google {
+    @include main-block (9.54rem, 3.125rem);
+}
+
+.microsoft {
+    @include main-block (13.1781rem, 2.8125rem);
+}
+
+.airbnb {
+    @include main-block (10.0181rem, 3.125rem);
+}
+
+.facebook {
+    @include main-block (12.2737rem, 2.375rem);
+}
+
+.spotify {
+    @include main-block (166.82px, 3.125rem);
+}
+
+.learn-more {
+    @include font-design (10.625rem, 3rem, $default-font, 400, normal, 1.25rem, rgba(255, 255, 255, 1), 1, 0);
+    background-color: rgba(33, 37, 41, 1);
+    border: none;
+    border-radius: 5px;
+}
+
+.main-second-block {
+    @include flexbox (73.75rem, 431.43px, flex, row, nowrap, space-between, center, 6.875rem);
+    border: .0625rem solid black;
+    margin: 0 8.125rem 1.4106rem 8.125rem;
+}
+
+.fourth-svg-pic {
+    @include main-block (37.5rem, 26.9644rem);
+}
+
+.main-text {
+    @include flexbox (29.375rem, 15.9375rem, flex, column, nowrap, none, none, 1rem);
+    border: .0625rem solid black;
+}
+.main-text-big-second {
+    @include font-design (28.875rem, 6.25rem, $secondary-font, 700, bold, 2.5rem, rgba(33, 37, 41, 1), 1.25, 0);
+
+}
+
+.main-text-paragraph-second {
+    @include font-design (29.375rem, 4.6875rem, $default-font, 400, normal, .9375rem, rgba(33, 37, 41, 0.5), 1.25, 0);
+    border: .0625rem solid black;
+}
+
+.main-third-block {
+    @include flexbox (73.75rem, 35.3581rem, flex, row, nowrap, space-between, center, 0);
+    border: .0625rem solid black;
+    margin: 0 8.125rem 4.4544rem 8.125rem;
+}
+
+.fifth-svg-pic {
+    @include main-block (37.5rem, auto);
+}
+
+.main-fourth-block {
+    @include flexbox (73.5rem, 37.4375rem, flex, column, nowrap, none, center, 2.8125rem);
+    margin: 0 8.25rem 4.5rem 8.25rem;
+    border: .0625rem solid black;
+    text-align: center;
+}
+
+.main-text-fourth {
+    @include flexbox (25.25rem, 10.125rem, flex, column, nowrap, center, center, 1rem);
+    border: .0625rem solid black;
+}
+
+.main-title-text-fourth {
+    @include font-design (3.8125rem, 1.25rem, $default-font, 700, bold, 1rem, $global-color, 1, .3125rem );
+}
+
+.main-text-big-fourth {
+    @include font-design (12.875rem, 3.125rem, $secondary-font, 700, bold, 2.5rem, rgba(33, 37, 41, 1), 1, 0);
+}
+
+.main-text-paragraph-fourth {
+    @include font-design (25.25rem, 3.75rem, $default-font, 400, normal, 20px, rgba(0, 0, 0, 1), 1.25, 0);
+}
+
+.carousel {
+    @include flexbox (73.5rem, 18.6875rem, flex, row, nowrap, center, center, 0);
+    border: .0625rem solid black;
+}
+
+.carousel-inner {
+    @extend .carousel;
+}
+
+.carousel-first {
+    @include main-block (17.4375rem, 18.6875rem);
+    border: .0625rem solid black;
+}
+
+.carousel-profile-list {
+    @include flexbox (12.625rem, 16.25rem, flex, column, nowrap, center, center, 0);
+    border: .0625rem solid black;
 }
